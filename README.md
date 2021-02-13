@@ -7,9 +7,13 @@ The dataset contains transactions made by credit cards in September 2013 by Euro
 
 All the transactions occurred in two days, where we have 492 frauds out of 284,807 transactions. The dataset is highly unbalanced; the positive class (frauds) account for 0.172% of all transactions.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1l3VpRPtDTGvTXDbDImZ2nJR9SM_DH2IB/view?usp=sharing)
+
 ## Overview
 
 Anomaly detection (or outlier detection) is the identification of rare items, events or observations which raise suspicions by differing significantly from the majority of the data. Typically, anomalous data can be connected to some kind of problem or rare event such as bank fraud, medical problems, structural defects, malfunctioning equipment etc. This connection makes it very interesting to be able to pick out which data points can be considered anomalies, as identifying these events are typically very interesting from a business perspective.
+
+----
 
 ## Key Features
 
@@ -20,9 +24,7 @@ Most of the features are converted with PCA for confidentiality.
 ![image](https://storage.googleapis.com/credit_card_fraud247/class-distribution.png)
   - This is a hostile environment. Fraud is very much outnumbered here, so a misclassification of the majority class will result in a high amount of alerts.
 
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1l3VpRPtDTGvTXDbDImZ2nJR9SM_DH2IB/view?usp=sharing)
-
+----
 
 ## Integrations
 
@@ -34,6 +36,8 @@ Most of the features are converted with PCA for confidentiality.
 * [Optuna](https://github.com/optuna/optuna)
 * [TensorFlow](https://www.tensorflow.org/tutorials/generative/autoencoder)
 * [XGBoost](https://xgboost.readthedocs.io/en/latest/index.html)
+
+----
 
 ## Conclusions
 
