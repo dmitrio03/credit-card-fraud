@@ -15,9 +15,9 @@ Anomaly detection (or outlier detection) is the identification of rare items, ev
 
 Most of the features are converted with PCA for confidentiality. 
 
-!(https://storage.googleapis.com/credit_card_fraud247/time-amount.png)
+![image](https://storage.googleapis.com/credit_card_fraud247/time-amount.png)
   - Time and amount are evenly dispersed.
-!(https://storage.googleapis.com/credit_card_fraud247/class-distribution.png)
+![image](https://storage.googleapis.com/credit_card_fraud247/class-distribution.png)
   - This is a hostile environment. Fraud is very much outnumbered here, so a misclassification of the majority class will result in a high amount of alerts.
 
 
@@ -37,7 +37,7 @@ Most of the features are converted with PCA for confidentiality.
 
 ## Conclusions
 
-!(https://storage.googleapis.com/credit_card_fraud247/conclusion.png)
+![image](https://storage.googleapis.com/credit_card_fraud247/conclusion.png)
 
 The anamoly detection algorithms are sensitive to alert spam, ie, they will need to contact each customer who has experienced fraud. 
 
