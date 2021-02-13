@@ -17,7 +17,7 @@ Anomaly detection (or outlier detection) is the identification of rare items, ev
 
 ## Key Features
 
-Most of the features are converted with PCA for confidentiality. 
+Most of the features are converted with PCA for confidentiality. The exceptions are **time** (seconds elapsed between transactions), **amount** (€), and **fraud** (0 or 1). 
 
 ![image](https://storage.googleapis.com/credit_card_fraud247/time-amount.png)
   - Time and amount are evenly dispersed.
