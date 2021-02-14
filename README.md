@@ -32,7 +32,6 @@ Most of the features are converted with PCA for confidentiality. The exceptions 
 * [Isolation Forests](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
 * [Catboost](https://catboost.ai/)
 * [PYOD](https://pyod.readthedocs.io/en/latest/)
-* [LightGBM](./examples/pruning/lightgbm_integration.py)
 * [Optuna](https://github.com/optuna/optuna)
 * [TensorFlow](https://www.tensorflow.org/tutorials/generative/autoencoder)
 * [XGBoost](https://xgboost.readthedocs.io/en/latest/index.html)
