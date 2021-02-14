@@ -20,11 +20,18 @@ Anomaly detection (or outlier detection) is the identification of rare items, ev
 Most of the features are converted with PCA for confidentiality. The exceptions are **time** (seconds elapsed between transactions), **amount** (€), and **fraud** (0 or 1). 
 
 ![image](https://storage.googleapis.com/credit_card_fraud247/time-amount.png)
-  - Time and amount are evenly dispersed.
-
-
 ![image](https://storage.googleapis.com/credit_card_fraud247/class-distribution.png)
-  - This is a hostile environment. Fraud is very much outnumbered here, so a misclassification of the majority class will result in a high amount of alerts.
+
+|Seconds	|Fraud	|Time|
+|---------------|-------|----|
+|68207.0	|6|	18 hours, 56 minutes and 47 seconds|
+|93879.0	|4|	1 day, 2 hours and 4 minutes|
+|84204.0	|4|	23 hours, 23 minutes and 24 seconds|
+
+- Notes:
+	* Time and amount are evenly dispersed.
+	* This is a hostile environment. Fraud is very much outnumbered here, so a misclassification of the majority class will result in a high amount of alerts.
+	* There is no one time record that has a high number of fraud.
 
 ----
 
