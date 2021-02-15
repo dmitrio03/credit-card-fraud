@@ -37,6 +37,7 @@ Most of the features are converted with PCA for confidentiality. The exceptions 
 
 ## Integrations
 
+* [ImbLearn](https://imbalanced-learn.org/stable/generated/imblearn.combine.SMOTETomek.html)
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/)
 * [Isolation Forests](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.IsolationForest.html)
 * [Catboost](https://catboost.ai/)
